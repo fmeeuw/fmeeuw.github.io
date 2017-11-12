@@ -86,7 +86,7 @@ analytics:
 # Site Author
 author:
   name             : "Frank van Meeuwen"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/Pasfoto.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "An experienced freelance full stack developer with an agile mindset and passion for functional programming."
   location         : "Utrecht"
   email            : "frank@frankit.io"
@@ -97,7 +97,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/fmeeuw"
+  github           : "fmeeuw"
   gitlab           :
   google_plus      :
   keybase          :
@@ -254,3 +254,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
