@@ -1,5 +1,4 @@
 ---
-permalink: /about/
-layout: default
+permalink: /contact/
 ---
-test
+test contact
