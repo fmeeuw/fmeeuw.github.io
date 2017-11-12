@@ -1,5 +1,12 @@
+# Custom yml options:
 remote_theme: "mmistakes/minimal-mistakes"
 
+# Site Organization
+organization:
+  name             : "FrankIT"
+  logo             : "/assets/images/FrankIT-Logo-A-Color-400.png" # path to company logo image, e.g. /assets/images/logo.png"
+
+# From Minimal Mistakes default yml:
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -11,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en"
-title                    : "FrankIT - Freelance Full Stack Developer"
+title                    : "Agile Full Stack Development"
 title_separator          : "-"
 name                     : "Frank van Meeuwen"
 description              : "Get to know Frank van Meeuwen, an experienced freelance full stack developer with an agile mindset and passion for functional programming."
@@ -87,6 +94,7 @@ analytics:
 author:
   name             : "Frank van Meeuwen"
   avatar           : "/assets/images/Pasfoto.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  logo             : "/assets/images/FrankITLogo.png" # path to company logo image, e.g. /assets/images/logo.png"
   bio              : "An experienced freelance full stack developer with an agile mindset and passion for functional programming."
   location         : "Utrecht"
   email            : "frank@frankit.io"
@@ -114,7 +122,6 @@ author:
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
-
 
 # Reading Files
 include:
