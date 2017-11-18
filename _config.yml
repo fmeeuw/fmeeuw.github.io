@@ -4,7 +4,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 # Site Organization
 organization:
   name             : "FrankIT"
-  logo             : "/assets/images/FrankIT-Logo-A-Color-400.png" # path to company logo image, e.g. /assets/images/logo.png"
+  logo             : "/assets/images/FrankIT-Logo-A-Color-W400.png" # path to company logo image, e.g. /assets/images/logo.png"
 
 # From Minimal Mistakes default yml:
 # Welcome to Jekyll!
@@ -94,7 +94,6 @@ analytics:
 author:
   name             : "Frank van Meeuwen"
   avatar           : "/assets/images/Pasfoto.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  logo             : "/assets/images/FrankITLogo.png" # path to company logo image, e.g. /assets/images/logo.png"
   bio              : "An experienced freelance full stack developer with an agile mindset and passion for functional programming."
   location         : "Utrecht"
   email            : "frank@frankit.io"
