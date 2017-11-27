@@ -1,0 +1,32 @@
+.bar {
+  height: 18px;
+  border-radius: 10px;
+  background: #7a828821;
+  width: 300px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.bar-fill {
+  height: 16px;
+  border-radius: 10px;
+  background: #0071B0;
+  display: inline-block;
+  margin: 1px 1px 5px 1px;
+}
+
+.bar-fill-1 {
+  width: 20%;
+}
+.bar-fill-2 {
+  width: 40%;
+}
+.bar-fill-3 {
+  width: 60%;
+}
+.bar-fill-4 {
+ width: 80%;
+}
+.bar-fill-5 {
+  width: 100%;
+}

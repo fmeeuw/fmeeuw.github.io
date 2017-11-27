@@ -6,6 +6,11 @@ organization:
   name             : "FrankIT"
   logo             : "/assets/images/FrankIT-Logo-A-Color-W400.png" # path to company logo image, e.g. /assets/images/logo.png"
 
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
 # From Minimal Mistakes default yml:
 # Welcome to Jekyll!
 #
@@ -267,3 +272,11 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: true

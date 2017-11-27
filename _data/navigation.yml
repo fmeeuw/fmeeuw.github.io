@@ -2,7 +2,7 @@
 main:
   - title: "About"
     url: /
-  - title: "Projects"
-    url: /projects/
+  - title: "Skills"
+    url: /skills/
   - title: "Contact"
     url: /contact/
