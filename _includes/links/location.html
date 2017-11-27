@@ -1,0 +1,5 @@
+{% if include.location %}
+<span itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+    <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">{{ include.location }}</span>
+</span>
+{% endif %}

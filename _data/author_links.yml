@@ -1,0 +1,64 @@
+# The list of all urls to display, you can pass this array when including author_links.html to show all urls that are available.
+# You can create a custom list of urls here, if you want to display the author links with a different list of urls.
+all:
+  - location
+  - website
+  - email
+  - keybase
+  - twitter
+  - facebook
+  - google_plus
+  - linkedin
+  - xing
+  - instagram
+  - tumblr
+  - bitbucket
+  - github
+  - gitlab
+  - stackoverflow
+  - lastfm
+  - dribbble
+  - pinterest
+  - foursquare
+  - steam
+  - youtube
+  - soundcloud
+  - weibo
+  - flickr
+  - codepen
+  - vine
+
+author_profile:
+  - location
+  - website
+  - email
+  - keybase
+  - twitter
+  - facebook
+  - google_plus
+  - linkedin
+  - xing
+  - instagram
+  - tumblr
+  - bitbucket
+  - github
+  - gitlab
+  - stackoverflow
+  - lastfm
+  - dribbble
+  - pinterest
+  - foursquare
+  - steam
+  - youtube
+  - soundcloud
+  - weibo
+  - flickr
+  - codepen
+  - vine
+
+about_page:
+  - linkedin
+
+contact_page:
+  - linkedin
+  - github

@@ -13,17 +13,5 @@ title: About Frank van Meeuwen
     <a href="/contact">Contact me</a>
 </p>
 
-<p>To know more, please check the following:</p>
-<div class="author__urls-wrapper">
-    <ul class="author__urls social-icons">
-        {% if site.author.linkedin %}
-                <li>
-                  <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">
-                    <i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn
-                  </a>
-                </li>
-        {% endif %}
-    </ul>
-</div>
-
-
+<p>To know more, please check my linkedin profile.</p>
+{% include author_links.html links=site.data.author_links.about_page %}

@@ -1,0 +1,34 @@
+{% if page.author and site.data.authors[page.author] %}
+{% assign author = site.data.authors[page.author] %}
+{% else %}
+{% assign author = site.author %}
+{% endif %}
+
+{% comment %} The collection of links to show, default=all links. {% endcomment %}
+{% if include.links %}
+{% assign links = include.links %}
+{% else %}
+{% assign links = site.data.author_links.all %}
+{% endif %}
+
+<div class="author__urls-wrapper">
+    <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
+    <ul class="author__urls social-icons">
+        {% for urlkey in links %}
+            {% case urlkey %}
+                <li>
+                {% when "location" %}
+                    {% include links/location.html location=author.location %}
+                {% when "email" %}
+                    {% include links/email.html email=author.email %}
+                {% when "website" %}
+                    {% include links/website.html uri=author.uri %}
+                {% when "linkedin" %}
+                    {% include links/linkedin.html username=author.linkedin %}
+                {% when "github" %}
+                    {% include links/github.html username=author.github %}
+                </li>
+            {% endcase %}
+        {% endfor %}
+    </ul>
+</div>

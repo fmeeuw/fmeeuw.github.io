@@ -1,0 +1,5 @@
+{% if include.uri %}
+<a href="{{ include.uri }}" itemprop="url">
+    <i class="fa fa-fw fa-chain" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}
+</a>
+{% endif %}
