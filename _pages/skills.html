@@ -3,8 +3,8 @@ permalink: /skills/
 title: Skills
 ---
 
-{% include bar.html size=3 %}
-{% include bar.html size=4 %}
-{% include bar.html size=5 %}
-{% include bar.html size=3 %}
-{% include bar.html size=4 %}
+<h3>Technical</h3>
+{% include barList.html bars=site.data.skills.technical-skills %}
+
+<h3>Soft</h3>
+{% include barList.html bars=site.data.skills.soft-skills %}

@@ -1,0 +1,14 @@
+{% comment %}
+Displays a list of bars.
+
+Arguments:
+- bars: A collection of bars with each containing a description field and size field of the bar. (size can be one of [0,1,2,3,4,5])
+{% endcomment %}
+<div class="bar-list">
+    {% for bar in include.bars %}
+    <div class="bar-item">
+        <span class="bar-description">{{bar.description}}</span>
+        <span class="bar-container">{% include bar.html size=bar.size %}</span>
+    </div>
+    {% endfor %}
+</div>

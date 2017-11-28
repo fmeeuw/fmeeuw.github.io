@@ -1,0 +1,23 @@
+technical-skills:
+  - description: "Scala"
+    size: 4
+  - description: "Akka"
+    size: 4
+  - description: "Machine Learning"
+    size: 3
+  - description: "Angular"
+    size: 3
+  - description: "Typescript"
+    size: 3
+
+soft-skills:
+  - description: "Creativity"
+    size: 4
+  - description: "Teamwork"
+    size: 4
+  - description: "Flexibility"
+    size: 3
+  - description: "Stress Management"
+    size: 5
+  - description: "Listening"
+    size: 4
