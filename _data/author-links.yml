@@ -1,4 +1,4 @@
-# The list of all urls to display, you can pass this array when including author_links.html to show all urls that are available.
+# The list of all urls to display, you can pass this array when including author-links.html to show all urls that are available.
 # You can create a custom list of urls here, if you want to display the author links with a different list of urls.
 all:
   - location
@@ -28,7 +28,7 @@ all:
   - codepen
   - vine
 
-author_profile:
+author-profile:
   - location
   - website
   - email
@@ -56,9 +56,9 @@ author_profile:
   - codepen
   - vine
 
-about_page:
+about-page:
   - linkedin
 
-contact_page:
+contact-page:
   - linkedin
   - github
