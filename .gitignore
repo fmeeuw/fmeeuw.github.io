@@ -1,1 +1,4 @@
 _site/
+.idea
+.jekyll_metadata
+fmeeuw.github.io.iml
